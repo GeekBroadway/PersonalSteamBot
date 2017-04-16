@@ -1,0 +1,26 @@
+{
+  "name": "steamitembot",
+  "version": "1.0.0",
+  "description": "A steam trade bot for storing items",
+  "main": "app.js",
+  "dependencies": {
+    "discord-webhooks": "^1.0.0",
+    "steam": "^1.4.0",
+    "steam-totp": "^1.4.0",
+    "steam-tradeoffer-manager": "^2.4.0",
+    "steam-user": "^3.13.1",
+    "steamcommunity": "^3.28.0",
+    "tf2": "^2.1.1",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.botonavi.com:GeekBroadway/steam-itembot.git"
+  },
+  "author": "Jack Broadway",
+  "license": "ISC"
+}
